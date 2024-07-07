@@ -48,20 +48,22 @@ hello world
 >>>
 ```
 
-This so-called *read-eval-print-loop* (or REPL) is very useful for debugging and exploration.
+This so-called *read-eval-print-loop* (or REPL) is very useful for debugging and
+exploration.
 
-**STOP**: If you can't figure out how to interact with Python, stop what you're doing
-and figure out how to do it.  If you're using an IDE, it might be hidden behind a
-menu option or other window.  Many parts of this course assume that you can
-interact with the interpreter.
+**STOP**: If you can't figure out how to interact with Python, stop what you're
+doing and figure out how to do it.  If you're using an IDE, it might be hidden
+behind a menu option or other window.  Many parts of this course assume that you
+can interact with the interpreter.
 
 Let's take a closer look at the elements of the REPL:
 
 - `>>>` is the interpreter prompt for starting a new statement.
-- `...` is the interpreter prompt for continuing a statement. Enter a blank line to finish typing and run what you've entered.
+- `...` is the interpreter prompt for continuing a statement. Enter a blank line
+  to finish typing and run what you've entered.
 
-The `...` prompt may or may not be shown depending on your environment. For this course,
-it is shown as blanks to make it easier to cut/paste code samples.
+The `...` prompt may or may not be shown depending on your environment. For this
+course, it is shown as blanks to make it easier to cut/paste code samples.
 
 The underscore `_` holds the last result.
 
@@ -109,17 +111,18 @@ C:\SomeFolder>c:\python36\python hello.py
 hello world
 ```
 
-Note: On Windows, you may need to specify a full path to the Python interpreter such as `c:\python36\python`.
-However, if Python is installed in its usual way, you might be able to just type the name of the program
-such as `hello.py`.
+Note: On Windows, you may need to specify a full path to the Python interpreter
+such as `c:\python36\python`.  However, if Python is installed in its usual way,
+you might be able to just type the name of the program such as `hello.py`.
 
 ### A Sample Program
 
 Let's solve the following problem:
 
-> One morning, you go out and place a dollar bill on the sidewalk by the Sears tower in Chicago.
-> Each day thereafter, you go out double the number of bills.
-> How long does it take for the stack of bills to exceed the height of the tower?
+> One morning, you go out and place a dollar bill on the sidewalk by the Sears
+> tower in Chicago.  Each day thereafter, you go out double the number of bills.
+> How long does it take for the stack of bills to exceed the height of the
+> tower?
 
 Here's a solution:
 
@@ -158,7 +161,8 @@ Number of bills 4194304
 Final height 461.37344
 ```
 
-Using this program as a guide, you can learn a number of important core concepts about Python.
+Using this program as a guide, you can learn a number of important core concepts
+about Python.
 
 ### Statements
 
@@ -170,7 +174,8 @@ b = a * 2
 print(b)
 ```
 
-Each statement is terminated by a newline. Statements are executed one after the other until control reaches the end of the file.
+Each statement is terminated by a newline. Statements are executed one after the
+other until control reaches the end of the file.
 
 ### Comments
 

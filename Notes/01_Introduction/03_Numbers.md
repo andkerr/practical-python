@@ -91,7 +91,8 @@ False
 >>>
 ```
 
-This is **not a Python issue**, but the underlying floating point hardware on the CPU.
+This is **not a Python issue**, but the underlying floating point hardware on
+the CPU.
 
 Common Operations:
 
